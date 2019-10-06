@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Password Generator Text</title>
-  </head>
-  <body>
-    <script src="./program.js"></script>
-    
-  </body>
-</html>
 
+<head>
+  <meta charset="UTF-8">
+  <title>Password Generator Text</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="mainContent">
+    <div class="contentHeaders">
+      Password Generator
+    </div>
+    <hr>
+
+    <div class="contentBody">
+
+      <div class="jumbotron">
+        <h4 class="h4">Generate a Password</h4>
+        <div class="form-group">
+            <label for="genPassword">Password</label>
+            <input type="text" class="form-control" id="genPassword" placeholder="Your Secure Password">
+          </div>
+        <hr class="my-4">
+        <p>Generate secure, randomized password and save to a clipboard</p>
+        <p class="lead">
+          <a class="btn btn-primary .mx-auto float-left" href="#" role="button">Generate Password</a>
+          <a class="btn btn-secondary .mx-auto float-right" href="#" role="button">Copy to Clipboard</a>
+        </p>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <script src="./program.js"></script>
+
+</body>
+
+</html>

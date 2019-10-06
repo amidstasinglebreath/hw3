@@ -9,6 +9,7 @@ Purpose:
 due to current issues in string declaration, the characters: " [ \ ] { | }
 are not currently included in the list of special characters
 
-Program currently interacts with the user only through the use of prompts.
-(lacks HTML (content))
-(lacks CSS Styling)
+Currently combines a basic HTML/CSS content box
+uses bootstrap's jumbotron, form, and button content in order to have page content
+buttons are not currently functional
+
