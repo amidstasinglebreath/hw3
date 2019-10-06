@@ -21,15 +21,14 @@
 
       <div class="jumbotron">
         <h4 class="h4">Generate a Password</h4>
-        <div class="form-group">
-            <label for="genPassword">Password</label>
-            <input type="text" class="form-control" id="genPassword" placeholder="Your Secure Password">
+        <div class="alert alert-primary" id="genPassword" role="alert">
+            Your Secure Password
           </div>
         <hr class="my-4">
         <p>Generate secure, randomized password and save to a clipboard</p>
         <p class="lead">
-          <a class="btn btn-primary .mx-auto float-left" href="#" role="button">Generate Password</a>
-          <a class="btn btn-secondary .mx-auto float-right" href="#" role="button">Copy to Clipboard</a>
+          <a class="btn btn-primary .mx-auto float-left" id="create-button" role="button">Generate Password</a>
+          <a class="btn btn-secondary .mx-auto float-right" id="copy-button" role="button">Copy to Clipboard</a>
         </p>
       </div>
 
