@@ -5,7 +5,7 @@ Purpose:
     by default includes lowercase alphabetical letters
     potentially includes uppercase alphabetical letters, special characters, and numbers
 
-Screenshot.PNG
+![Screenshot](Screenshot.PNG)
 
 Developer's Notes:
     due to current issues in string declaration, the characters: " [ \ ] { | }
